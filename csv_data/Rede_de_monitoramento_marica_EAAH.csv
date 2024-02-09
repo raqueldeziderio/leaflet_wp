@@ -1,0 +1,9 @@
+id,nome,tipo,rede,responsavel,bairro,cidade,estado,país,latitude,longitude
+1,EAAH1,Alerta e Alarme Hidrológico,Rede municipal,Prefeitura Municipal de Maricá/Defesa Civil,Condado,Rio de Janeiro,RJ,Brasil,-22.893289,-42.790726
+2,EAAH2,Alerta e Alarme Hidrológico,Rede municipal,Prefeitura Municipal de Maricá/Defesa Civil,MCMV Itaipuaçu,Rio de Janeiro,RJ,Brasil,-22.945134,-42.955993
+3,EAAH3,Alerta e Alarme Hidrológico,Rede municipal,Prefeitura Municipal de Maricá/Defesa Civil,MCMV Inoã,Rio de Janeiro,RJ,Brasil,-22.904392,-42.926689
+4,EAAH4,Alerta e Alarme Hidrológico,Rede municipal,Prefeitura Municipal de Maricá/Defesa Civil,São José do Imbassaí,Rio de Janeiro,RJ,Brasil,-22.93352,-42.895100
+5,EAAH5,Alerta e Alarme Hidrológico,Rede municipal,Prefeitura Municipal de Maricá/Defesa Civil,Vale da Figueira,Rio de Janeiro,RJ,Brasil,-22.91236,-42.721040
+6,EAAH6,Alerta e Alarme Hidrológico,Rede municipal,Prefeitura Municipal de Maricá/Defesa Civil,Bananal,Rio de Janeiro,RJ,Brasil,-22.922402,-42.724684
+7,EAAH7,Alerta e Alarme Hidrológico,Rede municipal,Prefeitura Municipal de Maricá/Defesa Civil,Mumbuca,Rio de Janeiro,RJ,Brasil,-22.913618,-42.820722
+8,EAAH8,Alerta e Alarme Hidrológico,Rede municipal,Prefeitura Municipal de Maricá/Defesa Civil,Rodoviária,Rio de Janeiro,RJ,Brasil,-22.916383,-42.815380

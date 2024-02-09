@@ -1,0 +1,7 @@
+id,nome,tipo,rede,responsavel,bairro,cidade,estado,país,latitude,longitude
+"1",EAAG1,Alerta & Alarme Geológico,Rede municipal,Prefeitura Municipal de Maricá/Defesa Civil,Amizade,Rio de Janeiro,RJ,Brasil,"-22.933244","-42.816386"
+"2",EAAG2,Alerta & Alarme Geológico,Rede municipal,Prefeitura Municipal de Maricá/Defesa Civil,Boqueirão,Rio de Janeiro,RJ,Brasil,"-22.928509","-42.823451"
+"3",EAAG3,Alerta & Alarme Geológico,Rede municipal,Prefeitura Municipal de Maricá/Defesa Civil,Araçatiba,Rio de Janeiro,RJ,Brasil,"-22.944893","-42.824655"
+"4",EAAG4,Alerta & Alarme Geológico,Rede municipal,Prefeitura Municipal de Maricá/Defesa Civil,Ponta Negra ,Rio de Janeiro,RJ,Brasil,"-22.949904","-42.686096"
+"5",EAAG5,Alerta & Alarme Geológico,Rede municipal,Prefeitura Municipal de Maricá/Defesa Civil,Itaocaia ,Rio de Janeiro,RJ,Brasil,"-22.939725","-42.957656"
+"6",EAAG6,Alerta & Alarme Geológico,Rede municipal,Prefeitura Municipal de Maricá/Defesa Civil,Recanto,Rio de Janeiro,RJ,Brasil,"-22.965322","-43.009738"
