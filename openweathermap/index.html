@@ -1,1 +1,31 @@
+<head>
+	<script type="text/javascript" src="leaflet.js"></script>
+	<link rel="stylesheet" type="text/css" href="leaflet-openweathermap.css" />
+	<script type="text/javascript" src="leaflet-openweathermap.js"></script>
+</head>
 
+<body>
+
+function myOwmMarker(data) {
+	// just a Leaflet default marker
+	return L.marker([data.coord.lat, data.coord.lon]);
+}
+
+function myOwmPopup(data) {
+	// just a Leaflet default popup with name as content
+	return L.popup().setContent(data.name);
+}
+
+var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	maxZoom: 18, attribution: '[insert correct attribution here!]' });
+
+var clouds = L.OWM.clouds({showLegend: false, opacity: 0.5, appId: 'YOUR_OWN_APPID'});
+var city = L.OWM.current({intervall: 15, lang: 'de',
+			markerFunction: myOwmMarker, popupFunction: myOwmPopup});
+
+var map = L.map('map', { center: new L.LatLng(51.5, 10), zoom: 10, layers: [osm] });
+var baseMaps = { "OSM Standard": osm };
+var overlayMaps = { "Clouds": clouds, "Cities": city };
+var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
+
+  </body>
